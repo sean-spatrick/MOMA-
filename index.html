@@ -7,24 +7,38 @@
     <meta charset="utf-8">
     <title>MOMA*</title>
 <style>
-    div.logo {
-   height: 10em;
-   position: relative }              
+div.container {
+  height: 494px;
+  width: 1763px;
+  background: #F1F1F1;
+  position: absolute;
+  
+  margin: -247px 0 0 -898px;
+  left: 52%;
+  top: 65%;
+}
+
 div.logo {
-   margin: 0;
-   position: absolute;               
-   top: 50%;                         
-   transform: translate(0, -50%) }   
+  height: 100%;
+  width: 100%;
+  background: #F1F1F1;
+  position: absolute;
+  
+  /*Centering Method 2*/
+  margin: -50% 0 0 -50%;
+  left: 50%;
+  top: 50%;
+}
     
 </style>    
 </head>
     
-<body BGCOLOR="FFFFFF">
+<body BGCOLOR="F1F1F1">
     
         <center>
-            <div class=logo>
+            <div class=container>
             <a href="home.html">
-                <img src="Images/MOMA.png" width="50%" height= "50%" align="middle" onmouseover="this.src='Images/Text.png'" onmouseout="this.src='Images/MOMA.png'"/>
+                <img class=logo src="Images/MOMA_LOGO.png" width="50%" height= "50%" align="middle" onmouseover="this.src='Images/Text.png'" onmouseout="this.src='Images/MOMA_LOGO.png'"/>
             </a>
             </div>    
         </center>
