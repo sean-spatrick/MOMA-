@@ -34,7 +34,7 @@ div.logo {
 
 div.gallery {
     background-color: #F1F1F1;
-    height: 500px;
+    height: 1000px;
     width: 80%;
     margin-top: -360px;
     overflow-y: scroll;
@@ -43,7 +43,7 @@ div.gallery {
 
 img.picture {
     position: relative;
-    height: 300px;
+    height: 400px;
     padding: 5px;
     cursor: url(../Images/Curse.png), auto; 
 } /* END IMG.PICTURE */
@@ -51,14 +51,14 @@ img.picture {
 div.Ltab {
     background-color: #c90d0d;
     margin-top: 120px;
-    height: 250px;
+    height: 500px;
     width: 1.5%;
 } /* END DIV.LTAB */
 
 div.Rtab {
     background-color: #c90d0d;
-    margin-top: -240px;
-    height: 250px;
+    margin-top: -500px;
+    height: 500px;
     width: 1.5%;
     float: right;
 } /* END DIV.RTAB */
